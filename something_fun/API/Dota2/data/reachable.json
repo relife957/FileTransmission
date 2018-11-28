@@ -1,0 +1,142 @@
+[
+  {
+    "table_name": "match_patch",
+    "column_name": "match_id",
+    "data_type": "bigint"
+  },
+  {
+    "table_name": "match_patch",
+    "column_name": "patch",
+    "data_type": "text"
+  },
+  {
+    "table_name": "matches",
+    "column_name": "match_id",
+    "data_type": "bigint"
+  },
+  {
+    "table_name": "matches",
+    "column_name": "match_seq_num",
+    "data_type": "bigint"
+  },
+  {
+    "table_name": "matches",
+    "column_name": "radiant_win",
+    "data_type": "boolean"
+  },
+  {
+    "table_name": "matches",
+    "column_name": "start_time",
+    "data_type": "integer"
+  },
+  {
+    "table_name": "matches",
+    "column_name": "duration",
+    "data_type": "integer"
+  },
+  {
+    "table_name": "player_matches",
+    "column_name": "multi_kills",
+    "data_type": "json"
+  },
+  {
+    "table_name": "player_matches",
+    "column_name": "life_state",
+    "data_type": "json"
+  },
+  {
+    "table_name": "player_matches",
+    "column_name": "obs_placed",
+    "data_type": "integer"
+  },
+  {
+    "table_name": "player_matches",
+    "column_name": "sen_placed",
+    "data_type": "integer"
+  },
+  {
+    "table_name": "player_matches",
+    "column_name": "creeps_stacked",
+    "data_type": "integer"
+  },
+  {
+    "table_name": "player_matches",
+    "column_name": "camps_stacked",
+    "data_type": "integer"
+  },
+  {
+    "table_name": "player_matches",
+    "column_name": "rune_pickups",
+    "data_type": "integer"
+  },
+  {
+    "table_name": "player_matches",
+    "column_name": "ability_upgrades_arr",
+    "data_type": "ARRAY"
+  },
+  {
+    "table_name": "player_matches",
+    "column_name": "party_id",
+    "data_type": "integer"
+  },
+  {
+    "table_name": "player_matches",
+    "column_name": "permanent_buffs",
+    "data_type": "ARRAY"
+  },
+  {
+    "table_name": "player_matches",
+    "column_name": "backpack_0",
+    "data_type": "integer"
+  },
+  {
+    "table_name": "player_matches",
+    "column_name": "backpack_1",
+    "data_type": "integer"
+  },
+  {
+    "table_name": "player_matches",
+    "column_name": "backpack_2",
+    "data_type": "integer"
+  },
+  {
+    "table_name": "player_matches",
+    "column_name": "lane",
+    "data_type": "integer"
+  },
+  {
+    "table_name": "player_matches",
+    "column_name": "lane_role",
+    "data_type": "integer"
+  },
+  {
+    "table_name": "player_matches",
+    "column_name": "is_roaming",
+    "data_type": "boolean"
+  },
+  {
+    "table_name": "player_matches",
+    "column_name": "firstblood_claimed",
+    "data_type": "integer"
+  },
+  {
+    "table_name": "player_matches",
+    "column_name": "teamfight_participation",
+    "data_type": "real"
+  },
+  {
+    "table_name": "player_matches",
+    "column_name": "towers_killed",
+    "data_type": "integer"
+  },
+  {
+    "table_name": "team_match",
+    "column_name": "team_id",
+    "data_type": "bigint"
+  },
+  {
+    "table_name": "team_match",
+    "column_name": "match_id",
+    "data_type": "bigint"
+  }
+]

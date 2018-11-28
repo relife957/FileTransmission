@@ -1,0 +1,19 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+
+import itchat
+
+@itchat.msg_register(itchat.content.INCOME_MSG)
+def download_files(msg):
+    try:
+        msg.download(msg.fileName)
+        itchat.send('@%s@%s' % (
+            'img' if msg['Type'] == 'Picture' else 'fil', msg['FileName']),
+            msg['FromUserName'])
+    except:
+        print("someting wrong!")
+    print("received successfully!")
+    return 'received'
+
+itchat.auto_login(hotReload=True)#如果实在服务器上运行,加上enableCmdQR=True的参数
+itchat.run()
